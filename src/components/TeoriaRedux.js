@@ -5,6 +5,15 @@ const TeoriaRedux = () => {
   return (
     <div>
       <h2>Teoría y Conceptos</h2>
+      <h3>
+        VER{" "}
+        <a href="https://redux-toolkit.js.org/api/createReducer">
+          DOCUMENTACION
+        </a>
+      </h3>
+      <h4>
+        <mark>Porque muchas dependencias no funcionan aquí (deprecated)</mark>
+      </h4>
       <ul>
         <li>
           <b>
@@ -38,8 +47,8 @@ const TeoriaRedux = () => {
           , son funciones que gestionan los <i>actions</i>.
         </li>
       </ul>
-      <img src={reduxImg} alt="Diagrama Redux" />
-      <img src={reduxGif} alt="Diagrama Redux Animado" />
+      <img className="gifs" src={reduxImg} alt="Diagrama Redux" />
+      <img className="gifs" src={reduxGif} alt="Diagrama Redux Animado" />
     </div>
   );
 };
